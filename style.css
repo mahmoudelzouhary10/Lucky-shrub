@@ -12,7 +12,7 @@ box-sizing: border-box;
 }
 body {
     margin: 0;
-    font-family: "Segoe UI",Tahoma, sans-serif;
+    font-family: 'poppins',Tahoma, sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
     background-color: #ffffff;
@@ -46,7 +46,8 @@ nav {
     background-size: cover;
     background-position: center top;
     color: white;
-padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .hero h1 {
     font-size: 48px;
@@ -71,7 +72,8 @@ padding: 20px;
 display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 24px;
-    padding: 60px 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: var(--bg-light);
 }
 .service-card {
